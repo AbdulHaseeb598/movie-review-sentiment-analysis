@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Sentiment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Sentiment Analysis</h1>
+    </header>
+    <main>
+        <form id="reviewForm">
+            <label for="review">Enter your movie review:</label>
+            <textarea id="review" rows="4" required></textarea>
+            <button type="submit">Analyze Sentiment</button>
+        </form>
+        <section id="result">
+            <h2>Sentiment Analysis Result:</h2>
+            <p id="analysisResult"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
